@@ -8,3 +8,8 @@ deploy:
   app: react-mario
   on:
     repo: shreyas-a/mario
+skip_commits:
+  files:
+    - .github/*
+    - travis.yml
+    - '*.md'
