@@ -8,7 +8,7 @@
     "build": "webpack",
     "start": "webpack-dev-server",
     "server": "node server.js",
-    "deploy": "git subtree push — prefix dist heroku master"
+    "deploy": "git subtree push —-prefix dist heroku master"
   },
   "keywords": [],
   "author": "Shreyas Agarkar <shreyas.a24@gmail.com>",
