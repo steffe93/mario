@@ -8,6 +8,7 @@ deploy:
   app: react-mario
   on:
     repo: shreyas-a/mario
+skip_cleanup: true
 skip_commits:
   files:
     - .github/*
