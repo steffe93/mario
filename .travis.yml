@@ -11,5 +11,4 @@ deploy:
 skip_commits:
   files:
     - .github/*
-    - travis.yml
     - '*.md'
