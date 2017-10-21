@@ -1,6 +1,8 @@
 language: node_js
 node_js: stable
-script: yarn build
+script:
+ - yarn build
+ - yarn deploy
 deploy:
   provider: heroku
   api_key:

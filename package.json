@@ -4,9 +4,11 @@
   "description": "React powered Mario game.",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm i express",
     "build": "webpack",
     "start": "webpack-dev-server",
-    "server": "node server.js"
+    "server": "node server.js",
+    "deploy": "git subtree push — prefix dist heroku master"
   },
   "keywords": [],
   "author": "Shreyas Agarkar <shreyas.a24@gmail.com>",
@@ -19,7 +21,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
     "react": "^15.6.2",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.2.2"
